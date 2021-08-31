@@ -44,7 +44,6 @@ az webapp create \
     -g $ResourceGroup \
     -n $AppName \
     --plan "windows-plan" \
-    --runtime "DOTNET|5.0" \
     --deployment-local-git \
     --deployment-source-branch main
 
